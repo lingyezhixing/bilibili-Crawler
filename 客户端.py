@@ -1,3 +1,4 @@
+#客户端
 import socket
 def tcp_client(ip, port):
     s = socket.socket(socket.AF_INET6, socket.SOCK_STREAM)
